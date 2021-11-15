@@ -1,7 +1,7 @@
 import Head from "next/head";
 import theme from "../components/theme";
 import React from "react";
-import { ThemeProvider, Box, Typography, useMediaQuery } from "@mui/material";
+import { ThemeProvider, Box, useMediaQuery } from "@mui/material";
 import { ParallaxProvider } from "react-scroll-parallax";
 import {
   Experience,
