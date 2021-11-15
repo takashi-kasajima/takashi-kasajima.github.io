@@ -1,0 +1,6 @@
+export * from './Profile'
+export * from './TopView'
+export * from './Experience'
+export * from './Skills'
+export * from './Footer'
+export * from './Others'
