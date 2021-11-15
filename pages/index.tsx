@@ -53,19 +53,19 @@ export default function Home() {
               maxWidth="1000px"
               margin="0 auto"
               display="flex"
-              justifyContent={isUpSm ? "space-between" : "flex-start"}
-              flexDirection={isUpSm ? "row" : "column"}
+              justifyContent="space-between"
             >
-              <Box
-                flexShrink={0}
-                height="100%"
-                position={isUpSm ? "sticky" : "static"}
-                top={60}
-                mr={isUpSm ? "48px" : ""}
-                mb={isUpSm ? "" : "32px"}
-              >
-                <Profile />
-              </Box>
+              {isUpSm && (
+                <Box
+                  flexShrink={0}
+                  height="100%"
+                  position="sticky"
+                  top={60}
+                  mr="48px"
+                >
+                  <Profile />
+                </Box>
+              )}
               <Box>
                 <Experience variant="work" />
                 <Experience variant="education" />
