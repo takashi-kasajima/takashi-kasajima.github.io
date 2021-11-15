@@ -1,6 +1,5 @@
 import { Box, Typography, useMediaQuery } from "@mui/material";
 import React from "react";
-import Image from "next/image";
 import theme from "components/theme";
 
 export const Profile = () => {
@@ -20,12 +19,14 @@ export const Profile = () => {
         borderRadius="24px"
         overflow="hidden"
       >
-        <Image
+        <img
           src="/portrait.jpg"
-          width={isUpSm ? "250px" : "300px"}
-          height={isUpSm ? "250px" : "200px"}
-          objectFit="cover"
-          objectPosition={isUpSm ? "" : "50% 20%"}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition: isUpSm ? "" : "50% 20%",
+          }}
         />
       </Box>
       <Box width={1} textAlign="left">

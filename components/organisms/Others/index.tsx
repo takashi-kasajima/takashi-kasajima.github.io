@@ -1,7 +1,6 @@
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
-import Image from "next/image";
 
 const contents = [
   "👶 Playing with my son",
@@ -17,11 +16,13 @@ export const Others = () => {
     <Box>
       <Typography variant="h3">Others</Typography>
       <Box borderRadius="24px" width="200px" height="200px" overflow="hidden">
-        <Image
+        <img
           src="/father.png"
-          width="200px"
-          height="200px"
-          objectFit="cover"
+          style={{
+            width: "200px",
+            height: "200px",
+            objectFit: "cover",
+          }}
         />
       </Box>
       <Box height="10px" />
