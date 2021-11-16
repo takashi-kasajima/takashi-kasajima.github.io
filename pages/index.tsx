@@ -19,7 +19,7 @@ export default function Home() {
       <ParallaxProvider>
         <Head>
           <title>Takashi Kasajima</title>
-          <link rel="shortcut icon" type='image/x-icon' href="/favicon.ico" />
+          <link rel="shortcut icon" type='image/x-icon' href="public/favicon.ico" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
             rel="preconnect"
