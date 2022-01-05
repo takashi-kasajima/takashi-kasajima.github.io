@@ -94,7 +94,7 @@ const items: { [key: string]: ExperienceData } = {
         positions: [
           {
             subtitle: "Bachelor, Department of Law",
-            date: "4/2020 - 4/2021",
+            date: "4/2011 - 4/2015",
             description: ["Majored civil law"],
           },
         ],
